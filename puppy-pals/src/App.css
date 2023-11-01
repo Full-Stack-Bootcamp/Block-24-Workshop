@@ -1,0 +1,40 @@
+span {
+  font-weight: 800;
+}
+
+h3 {
+  margin: 0;
+  padding: 5px;
+}
+
+.App,
+.puppy-id {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: purple;
+}
+
+.puppy-list p {
+  cursor: pointer;
+}
+
+.puppy-list,
+.puppy-id {
+  background-color: lavender;
+  width: 80%;
+  text-align: center;
+  margin: 5px;
+  border: 5px solid purple;
+}
+
+.puppy-id ul {
+  padding: 0;
+  margin-top: 0;
+  list-style: none;
+}
+
+.puppy-id ul li {
+  padding: 5px;
+}
